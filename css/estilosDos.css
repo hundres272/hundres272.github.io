@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+}
+#cabeceralogo {
+  width: : 80%;
+  height: auto;
+  padding: 0% 10%;
+  justify-content: center;
+  background-color: #37536b;
+  border-radius: 0px 0px 20px 20px;
+}
+/* #menu-lineal {
+  display: flex;
+  width: 80%;
+  height: 40px;
+  padding: 0% 10%;
+  justify-content: space-between;
+  background-color: #8e8d93;
+  border-radius: 10px;
+}
+#menu-lineal li {
+  display: inline-block;
+  padding: 8px 20px 13px 20px;
+}
+#menu-lineal li:hover {
+  background-color: #7d3050;
+} */
+header a {
+  display: inline-block;
+  font: bold 16px Arial, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+#header-inicio-des {
+  display: flex;
+  width: 96%;
+  margin: 5% 2%;
+  margin-bottom: 0%;
+  justify-content: space-around;
+}
+#panel-register {
+   width: 45%;
+   height: auto;
+  /* max-width: 500px;
+  min-height: 550px;
+  max-height: 570px;  */
+  background-color: #dcdcdc;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+#panel-register h1 {
+  padding: 5% 0%;
+  text-align: center;
+}
+#panel-register label {
+  margin: 40px;
+}
+#panel-register input {
+  margin: 5px 40px 20px 40px;
+  border-radius: 10px;
+  width: 80%;
+  height: 25px;
+  font: 15px Arial, sans-serif;
+}
+#desing-button {
+  padding: 5% 30% 5% 70%;
+  width: 80%;
+}
+.boton {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  padding: 3% 0%;
+  text-shadow: 1px 1px 15px #666666;
+  font: 100% Arial;
+  color: #ffffff;
+  background: #7d3050;
+  border: solid #000000 1px;
+  text-decoration: none;
+  width: 30%;
+}
+.boton:hover {
+  background: #af7a98;
+}
+@media screen and (max-width: 1000px){
+  #header-inicio-des {
+    width: 100%;
+    margin: 0%;
+    padding-top: 8em;
+    /* padding-bottom: 5px; */
+    justify-content: center;
+  }
+  #panel-register {
+    width: 96%;
+    padding: 0% 2%;
+    /* max-width: 500px;
+    min-height: 550px;
+    max-height: 570px; */
+    background-color: #dcdcdc;
+    border-radius: 20px;
+  }
+  #title {
+    font-size: 3em;
+  }
+  #form-register {
+    font-size: 4em;
+  }
+  #form-register input {
+    height: auto;
+    font-size: .5em;
+  }
+  #form-register button {
+    font-size: .5em;
+  }
+}
