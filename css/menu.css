@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header a {
+  font: bold 16px Arial, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+#menu-cabecera {
+  display: flex;
+  width: 100%;
+  /* padding: 0% 10%; */
+  justify-content: space-between;
+}
+#menu-cabecera li {
+  display: inline-block;
+  background: rgba(153, 154, 145,0.8);
+  padding: 8px 30px 13px 30px;
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+#menu-cabecera li:hover {
+  background-color: rgba(252, 253, 27, 0.41);
+}
+.menuprincipal {
+  padding: 0% 20%;
+}
+.menuprincipal ul {
+  display: flex;
+  width: 100%;
+}
+.menu_icon {
+  display: none;
+}

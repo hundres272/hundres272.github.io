@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#cabeceralogo {
+  background: linear-gradient(to right, rgba(76,76,76,1)
+              0%, rgba(89,89,89,0.93) 12%,
+              rgba(102,102,102,0.85) 25%,
+              rgba(71,71,71,0.77) 39%,
+              rgba(43,43,43,0.55) 76%,
+              rgba(28,28,28,0.46) 91%,
+              rgba(19,19,19,0.41) 100%),
+              url(../images/fondo.jpeg)
+              no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.main {
+  /* background: linear-gradient(to right, rgba(76,76,76,1)
+              0%, rgba(89,89,89,0.93) 12%,
+              rgba(102,102,102,0.85) 25%,
+              rgba(71,71,71,0.77) 39%,
+              rgba(43,43,43,0.55) 76%,
+              rgba(28,28,28,0.46) 91%,
+              rgba(19,19,19,0.41) 100%); */
+  background: rgb(65, 72, 77);
+  height: 100vh;
+  background-size: cover;
+}
+
+
+/* Contenido header después del menú */
+#header-inicio-des {
+  display: inline-flex;
+  width: 70%;
+  height: 60vh;
+  margin: 9vh 15%;
+  align-items: center;
+}
+#image-text img {
+  border-radius: 50%;
+  width: 20em;
+}
+#text-header {
+  text-align: justify;
+  margin-left: 3em;
+  padding: 0px 10px;
+  overflow: auto;
+  border-radius: 20px;
+  background: rgba(153, 154, 145,0.9);
+}
+#text-header h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+#text-header p {
+  text-align: justify;
+  font-size: 1.5em;
+  color: white;
+}
+
+/* Desarrollo del main */
+#menu-formacion {
+  margin-top: 50px;
+}
