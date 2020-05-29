@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/menu.css">
     <script type="text/javascript" src="./javascript/menu.js"></script>
+    <script type="text/javascript" src="./javascript/codigoFormacion.js"></script>
   </head>
   <body>
       <header id="cabeceralogo">
@@ -55,155 +56,128 @@
       </header>
 
       <main>
-        <div class="main">
-          <div class="menu-formacion">
-            <nav>
-              <div class="">
-                <ul>
-                  <div>
-                    <a href="#inicio"><li>Bachiller Técnico</li></a>
-                  </div>
-                </ul>
+        <section id="formacion">
+          <input type="radio" value="tecnico" name="tabs" id="tecnico" checked>
+          <input type="radio" name="tabs" value="universidad" id="universidad">
+          <input type="radio" name="tabs" value="platzi" id="platzi">
+          <ul>
+            <li class="tabs-link">
+              <label for="tecnico">
+                Bachiller Técnico
+              </label>
+            </li>
+            <li class="tabs-link">
+              <label for="universidad">
+                Universidad
+              </label>
+            </li>
+            <li class="tabs-link">
+              <label for="platzi">
+                Platzi
+              </label>
+            </li>
+          </ul>
+          <div class="tabs-grid">
+            <div class="tabs-content" id="tab-tecnico">
+              <img src="./static/images/illustration-features-tab-1.svg" alt="">
+              <div>
+                <h2 class="u-h2">
+                  Bookmark in one click
+                </h2>
+                <p class="u-p">
+                  Organize your bookmarks however you like. Our simple drag-and-drop interface
+                  gives you complete control over how you manage your favourite sites.
+                </p>
+                <div class="content-button">
+                  <button class="u-button">More Info</button>
+                </div>
               </div>
-            </nav>
+            </div>
+            <div class="tabs-content" id="tab-universidad">
+              <img src="./static/images/illustration-features-tab-1.svg" alt="">
+              <div>
+                <h2 class="u-h2">
+                  Bookmark in one click 2
+                </h2>
+                <p class="u-p">
+                  Organize your bookmarks however you like. Our simple drag-and-drop interface
+                  gives you complete control over how you manage your favourite sites.
+                </p>
+                <div class="content-button">
+                  <button class="u-button">More Info</button>
+                </div>
+              </div>
+            </div>
+            <div class="tabs-content" id="tab-platzi">
+              <img src="./static/images/illustration-features-tab-1.svg" alt="">
+              <div>
+                <h2 class="u-h2">
+                  Bookmark in one click 3
+                </h2>
+                <p class="u-p">
+                  Organize your bookmarks however you like. Our simple drag-and-drop interface
+                  gives you complete control over how you manage your favourite sites.
+                </p>
+                <div class="content-button">
+                  <button class="u-button">More Info</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <section id="articulosprincipales">
-            <section id="articulo">
-              <img src="./images/guitar2.jpg" width="200px">
-              <div class="content-guitar">
-                <h1>Guitarra Eléctrica Texas ADK-E10W-S-W, White</h1>
-                <p>
-                  $ 357,000 <br>
-                  Esta guitarra Texas de corte Stratocaster es perfecta
-                  como primera guitarra. Con sus características se adapta
-                  muy bien a quienes están empezando a tocar y no quieren
-                  invertir una gran cantidad de dinero en una guitarra.
-                  Acabados muy bien elaborados, diversidad de colores.
-                  mástil de arce, cuerpo en tilo.
-                </p>
-              </div>
-            </section>
-            <section id="articulo">
-              <img src="./images/guitar3.jpg" width="200px">
-              <div class="content-guitar">
-                <h1>Guitarra Acústica Clásica Admira Sara</h1>
-                <p>
-                  $ 537,600 <br>
-                  La guitarra española Admira Sara es el instrumento
-                  ideal para el estudiante que desea obtener el sonido
-                  y tono de una guitarra española tradicional a un
-                  precio asequible. Este modelo cuenta con una tapa
-                  de pícea y cuerpo y lados de nogal. <br><br>
-
-                  Ideal para aquellos que quieren empezar a tocar
-                  música clásica, la guitarra clásica Admira Sara
-                  ofrece la oportunidad de reproducir un tono
-                  tradicional a través de sus intuitivas características
-                  tonales. Fabricado mano por luthiers españoles, una
-                  calidad de fabricación excepcional se asegura con un
-                  tono consistente y confiable para arrancar.
-                </p>
-              </div>
-            </section>
-            <section id="articulo">
-              <img src="./images/guitar4.jpg" width="200px">
-              <div class="content-guitar">
-                <h1>Guitarra Eléctrica Washburn WS300B,
-                    Sonamaster Series, Black</h1>
-                <p>
-                  $ 503,000 <br>
-                  Esta guitarra es perfecta para quienes están
-                  empezando. Con cuerpo de tilo, diapasón de palisandro
-                  Mástil de arce, trastes 22 magnética SSS - Triple
-                  Washburn Sonamaster sola bobina,  1 volumen - 2 Tonos,
-                  trémolo Fulcrum, Escala 25.5, Cuerdas D’Addario,
-                  la sintonización engranajes de cromo sintonizadores
-                  de fundición a presión.
-                </p>
-              </div>
-            </section>
-            <section id="articulo">
-              <img src="./images/guitar5.jpg" width="200px">
-              <div class="content-guitar">
-                <h1>Guitarra Electroacústica Texas ADK-A14CE-N, Cuerda Metal</h1>
-                <p>
-                  $ 340,000 <br>
-                  Quieres iniciarte en el mundo de la guitarra sin
-                  tener que gastar una fortuna? Esta guitarra es
-                  para ti. Guitarra de corte dreadnought con cuerdas
-                  de acero y ecualizador para amplificarla. Su
-                  construcción es de madera Agathis cuenta con 20
-                  trastes. Esta guitarra tiene ecualizador de
-                  cuatro bandas incluido, lo que hará mucho más fácil
-                  tu experiencia de aprendizaje.
-                </p>
-              </div>
-            </section>
-            <section id="articulo">
-              <img src="./images/guitar6.jpg" width="200px">
-              <div class="content-guitar">
-                <h1>Guitarra Eléctrica Epiphone Les Paul SL, Heritage Cherry Sunburst ENOLHSCH1</h1>
-                <p>
-                  $ 613,000 <br>
-                  Con la Les Paul SL de Epiphone, la filial del Grupo
-                  Gibson ofrece con diferencia la mejor relación
-                  precio-rendimiento de la gama LP! Equipada con dos
-                  bobinas individualesinternas 650SCR y 700SCT con
-                  imanes cerámicos y un puente envolvente de una sola
-                  pieza, la Les Paul SL despierta el encanto de los
-                  modelos clásicos Danos y LP Special, mientras que el
-                  perfil original del cuello Slim Taper de 1960 de los
-                  últimos modelos Les Paul ofrece el familiar manejo
-                  Gibson de cabezal a cuello. Sólidos afinadores Epiphone
-                  Premium garantizan en última instancia una estabilidad
-                  de afinación fiable y una afinación sencilla. La guitarra
-                  eléctrica perfecta para principiantes, aficionados o como
-                  segunda guitarra económica!<br><br>
-                  <h2>Bobinas individuales de cerámica 650SCR y 700SCT</h2>
-                  La versión de bobina simple de las humbuckers 650R y
-                  700T combina el sonido tenso del imán de cerámica con
-                  un llamativo carácter de bobina simple y proporciona
-                  agudos claros y directos, bajos atractivos y un
-                  rango medio actual. Ambas pastillas se seleccionan
-                  mediante conmutadores de 3 vías y se pueden conectar
-                  juntas en la posición central. Por último, pero no
-                  menos importante, el control Master Tone proporciona
-                  un control total sobre la altura transmitida de las
-                  pastillas.<br><br>
-                  <h2>Sintonizadores Wraparound y Premium de Epiphone</h2>
-                  Epiphones Les Paul SL utiliza el concepto clásico
-                  del puente envolvente de una sola pieza. El puente,
-                  que está montado sobre dos clavijas, está compensado
-                  para cada cuerda y puede ajustarse en términos de
-                  altura y entonación de la misma. En el otro extremo
-                  del cabezal, los mecanismos de fundición a presión de
-                  Epiphone Premium garantizan afinaciones estables,
-                  afinaciones sencillas y cambios rápidos de cuerdas.
-                </p>
-              </div>
-            </section>
-          </section>
-          <aside id="infoadicional">
-            <section id="title-infoadd">
-              <h1>Información Personal</h1>
-            </section>
-            <section>
-              <h3>Noticia 1</h3>
-              <p>Unión Festival Digital está listo para una fiesta virtual...
-                <a target="_blank" href="https://www.eltiempo.com/cultura/musica-y-libros/un-festival-digital-en-epocas-de-pandemia-488458">Más</a>
+        </section>
+        <section id="trabajos">
+          <div class="contenedor-trabajos">
+            <div class="trabajo" id="trabajoUno">
+              <h2>Ahorcado Python</h2>
+              <p>
+                El clásico juego del ahoracado
+                desarrolado en Python, se hace
+                uso de conceptos muy básicos de la
+                programación, pero demuestran el
+                conocimiento suficiente para el desarrollo
+                de aplicaciones en python.
               </p>
-
-            </section>
-            <section>
-              <h3>Noticia 2</h3>
-              <p>Javier Camarena: "Disfrutamos de cantar,
-                pero para muchos es nuestro sustento ...
-                <a target="_blank" href="https://www.elespectador.com/coronavirus/javier-camarena-disfrutamos-de-cantar-pero-para-muchos-es-nuestro-sustento-articulo-916553">
-                  Más</a>"
+              <a href="./pages/ahorcado.html">
+                <div class="button-model button-job">
+                  Más
+                </div>
+              </a>
+            </div>
+            <div class="trabajo" id="trabajoDos">
+              <h2>hola2</h2>
+              <p>
+                Hola he aqui mi presentación solo
+                por ver como queda
+                Hola he aqui mi presentación solo
+                por ver como queda
+                Hola he aqui mi presentación solo
+                por ver como queda
               </p>
-            </section>
-          </aside>
-        </div>
+            </div>
+            <div class="trabajo" id="trabajoTres">
+              <h2>hola3</h2>
+              <p>
+                Hola he aqui mi presentación solo
+                por ver como queda
+                Hola he aqui mi presentación solo
+                por ver como queda
+                Hola he aqui mi presentación solo
+                por ver como queda
+              </p>
+            </div>
+          </div>
+          <div class="contenedor-trabajos">
+            <div class="trabajo" id="trabajoUno">
+              <h2>hola1</h2>
+            </div>
+            <div class="trabajo" id="trabajoDos">
+              <h2>hola2</h2>
+            </div>
+            <div class="trabajo" id="trabajoTres">
+              <h2>hola3</h2>
+            </div>
+          </div>
+        </section>
       </main>
 
 
