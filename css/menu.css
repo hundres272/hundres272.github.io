@@ -24,7 +24,8 @@ header a {
   background-color: rgba(252, 253, 27, 0.41);
 }
 .menuprincipal {
-  padding: 0% 20%;
+  padding: 0% 25%;
+  /* padding: 0% 20%; */
 }
 .menuprincipal ul {
   display: flex;

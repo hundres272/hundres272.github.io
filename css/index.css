@@ -39,6 +39,18 @@ body {
   height: 100vh;
   background-size: cover;
 }
+#contacto {
+  /* background: linear-gradient(to right, rgba(76,76,76,1)
+              0%, rgba(89,89,89,0.93) 12%,
+              rgba(102,102,102,0.85) 25%,
+              rgba(71,71,71,0.77) 39%,
+              rgba(43,43,43,0.55) 76%,
+              rgba(28,28,28,0.46) 91%,
+              rgba(19,19,19,0.41) 100%); */
+  background: rgb(65, 72, 77);
+  height: 20vh;
+  background-size: cover;
+}
 
 /* Contenido header después del menú */
 #header-inicio-des {
@@ -151,22 +163,36 @@ body {
   background: rgba(252, 253, 27, 0.41);
 }
 .contenedor-trabajos {
-  height: 34vh;
-  padding: 4% 10%;
-  /* border: 1px solid red; */
+  display: inline-flex;
+  height: 100vh;
+  /* border: 1px solid green; */
   justify-content: space-around;
 }
 .trabajo {
-  display: inline-block;
+  display: block;
   width: 20%;
   height: auto;
   padding: 0% 2%;
-  margin: 0% 3%;
   /* border: 1px solid green; */
   text-align: center;
   background-color: rgba(29, 229, 249, 0.52);
   border-radius: 5px;
-  box-shadow: 10px 10px rgba(153, 154, 145,0.2);
+  box-shadow: 10px 10px 20px rgba(153, 154, 145,0.5);
+}
+#trabajo-uno {
+  margin: 5% 0%;
+  height: 270px;
+  margin-bottom: 0%;
+}
+#trabajo-dos {
+  margin: 15% 0%;
+  height: 270px;
+  margin-bottom: 0%;
+}
+#trabajo-tres {
+  margin: 25% 0%;
+  height: 270px;
+  margin-bottom: 0%;
 }
 .trabajo a {
   text-decoration: none;
@@ -184,4 +210,23 @@ body {
 }
 .button-model:hover {
   background-color: rgba(252, 253, 27, 0.41);
+}
+.seccionpie {
+  display: flex;
+  width: 98vw;
+  justify-content: space-between;
+}
+.content-text {
+  margin-left: 4vw;
+}
+.content-icons {
+  display: inline-flex;
+  align-items: center;
+}
+.content-icons p {
+  margin-bottom: 0%;
+}
+.content-icons a {
+  display: inline-flex;
+  padding: 3vh 1vw;
 }
