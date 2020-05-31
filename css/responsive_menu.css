@@ -31,7 +31,7 @@
 
 
 @media screen and (max-width: 1000px){
-  bady {
+  body {
     font-size: 5vw;
   }
   .menu_icon {

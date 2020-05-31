@@ -1,0 +1,224 @@
+.menu_icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px){
+  body {
+    /* font-size: 5vw; */
+    /* width: 100%; */
+    /* height: auto; */
+  }
+  .menu_icon {
+    display: block;
+    width: 100%;
+    background: #772648;
+    position: fixed;
+  }
+  .menu_icon .bt_menu{
+    display: block;
+    font-size: 7em;
+    padding: 20px;
+    /* margin-left: 20px; */
+  }
+  .icon_list {
+    float: right;
+    width: 150px;
+    margin-top: 0px;
+    margin-right: 20px;
+  }
+  #menu-cabecera {
+    /* display: none; */
+  }
+  #cabeceralogo {
+    display: inline-block;
+    justify-content: center;
+    width: auto;
+    background-repeat: repeat-y;
+    height: auto;
+    background-size: auto;
+  }
+  #menu-cabecera {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    justify-content: space-between;
+    background-color: #8e8d93;
+    border-radius: 0px;
+    text-align: center;
+    left: -110%;
+    position: fixed;
+  }
+  .menu-block a {
+    margin: 0%;
+    padding: 0%;
+    width: 80%;
+    font-size: 5em;
+  }
+  .menuprincipal {
+    width:96%;
+    padding: 0% 0%;
+  }
+  .menuprincipal ul {
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    /* border-style: solid;
+    border-color: red; */
+  }
+  .menu-item {
+    width: 100%;
+    height: auto;
+    border-bottom: white 5px solid;
+    /* border-color: green; */
+  }
+  .menu-item:hover {
+    background-color: #7d3050;
+  }
+  #header-inicio-des {
+    display: block;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 0%;
+    border-radius: 0%;
+  }
+  #image-text {
+    display: block;
+    /* margin-top: 20vh; */
+    /* margin: 0; */
+    justify-content: center;
+  }
+  #image-text img {
+    width: 80%;
+    margin: 0% 10%;
+    margin-top: 90px;
+  }
+  #text-header {
+    display: block;
+    margin: 0%;
+    padding: 4%;
+    width: auto;
+    font-size: 3em;
+    /* text-align: left; */
+  }
+  #formacion {
+    display: inline-block;
+    /* margin: 0%; */
+    /* padding: 0%; */
+    /* width: auto; */
+    width: auto;
+    height: auto;
+    background-size: auto;
+  }
+  #formacion ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 5%;
+    /* width: 100%; */
+    margin: 0% 10%;
+  }
+  .tabs-grid {
+    /* width: 100%; */
+    margin-left: 5%;
+    padding: 5% 0%;
+    padding-left: 5px;
+    margin-right: 10%;
+  }
+  .tabs-link {
+    /* border: 1px solid red; */
+    /* width: auto; */
+    padding: 0%;
+    text-align: center;
+    font-size: 2em;
+  }
+  .tabs-content {
+    border-left: none;
+    border-top: 2px solid white;
+    font-size: 3em;
+    text-align: center;
+  }
+  .content-button {
+    justify-content: center;
+    padding-left: 0%;
+    font-size: 3em;
+  }
+  .u-button {
+    width: 100%;
+  }
+  #trabajos {
+    /* display: none; */
+    display: inline-block;
+    /* margin: 0%; */
+    /* padding: 0%; */
+    /* width: 100%; */
+    height: auto;
+    /* background-size: auto; */
+  }
+  .contenedor-trabajos {
+    display: inline-block;
+    height: auto;
+    margin-top: 10vh;
+  }
+  .trabajo {
+    font-size: 3em;
+    /* width: 90%; */
+  }
+  #trabajo-uno {
+    /* border: 1px solid red; */
+    display: block;
+    height: auto;
+    width: 90%;
+    margin: 0% 5%;
+    margin-bottom: 5vh;
+    padding: 5% 0%;
+    /* margin: 0%; */
+  }
+  #trabajo-dos {
+    display: block;
+    height: auto;
+    width: 90%;
+    margin: 0% 5%;
+    margin-bottom: 5vh;
+    padding: 5% 0%;
+  }
+  #trabajo-tres {
+    display: block;
+    height: auto;
+    width: 90%;
+    margin: 0% 5%;
+    margin-bottom: 10vh;
+    padding: 5% 0%;
+  }
+  #contacto {
+    /* display: none; */
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+  .seccionpie {
+    display: block;
+    /* width: 100%; */
+  }
+  .content-text {
+    margin: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+  }
+  .content-icons {
+    /* border: 1px solid red; */
+    width: 100%;
+    justify-content: center;
+  }
+  .content-icons img {
+    width: 20vh;
+  }
+  .menu-fixed {
+    position: static;
+    /* z-index: 1000; */
+    top: 0;
+    /* width: 100%; */
+    background-color: none;
+  }
+}

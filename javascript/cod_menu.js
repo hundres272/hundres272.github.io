@@ -4,10 +4,10 @@ function iniciar() {
   boton_menu.addEventListener("click",volver_visual);
 }
 function volver_visual() {
-  var menu_li = document.getElementById('menu-lineal');
+  var menu_li = document.getElementById('menu-cabecera');
 
   if(contador == 1){
-    menu_li.style.top='120px';
+    menu_li.style.top='174px';
     menu_li.style.left='0';
     contador = 0;
   }else{

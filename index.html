@@ -7,20 +7,23 @@
     <meta name="keywords" content="desarrollador,pasto,web,paginas">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menu_responsive.css">
     <script type="text/javascript" src="./javascript/menu.js"></script>
     <script type="text/javascript" src="./javascript/codigoFormacion.js"></script>
+    <script type="text/javascript" src="./javascript/menu-fixed.js"></script>
+    <script type="text/javascript" src="./javascript/cod_menu.js"></script>
   </head>
   <body>
       <header id="cabeceralogo">
         <div class="menu_icon" id="menu_icon">
-          <a href="#" class="bt_menu"><img src="/images/senales.png" class="icon_list" width="25px">Menú</a>
+          <a href="#" class="bt_menu"><img src="./images/senales.png" class="icon_list" width="25px">Menú</a>
         </div>
-        <div id="menu-cabecera">
+        <div id="menu-cabecera" class="menu-normal">
           <nav id="menuprincipal" class="menuprincipal">
             <div>
-              <ul>
+              <ul class="ul-menu-principal">
                 <div class="menu-block">
-                  <a href="#inicio"><li class="menu-item">Principal</li></a>
+                  <a href="#cabeceralogo"><li class="menu-item">Principal</li></a>
                 </div>
                 <div class="menu-block">
                   <a href="#formacion"><li class="menu-item">Formación</li></a>
@@ -188,7 +191,7 @@
             </p>
           </div>
           <div class="content-icons">
-            <p>Redes sociales:</p>
+            <!-- <p>Redes sociales:</p> -->
             <a href="https://www.facebook.com/hundres272" target="_blank">
               <img src="./images/facebook.png" width="60px">
             </a>
