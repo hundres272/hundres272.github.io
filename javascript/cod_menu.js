@@ -29,7 +29,7 @@ function modificacionUno() {
   }
 }
 function modificacionMostrarBoton(){
-  console.log(screen.width);
+  // console.log(screen.width);
   var menu_li = document.getElementById('menu-cabecera');
   menu_li.style.left='-110%';
   contador=1;

@@ -119,7 +119,10 @@
     list-style: none;
     margin: 0%;
     padding: 0%;
-    padding-top: 5%;
+    padding-top: 15%;
+    height: auto;
+    margin-top: 70vh;
+    margin-bottom: 50vh;
     /* width: 100%; */
     margin: 0% 10%;
   }
@@ -140,6 +143,8 @@
   .tabs-content {
     border-left: none;
     border-top: 2px solid white;
+    padding-top: 5vh;
+    margin-top: 5vh;
     font-size: 3em;
     text-align: center;
   }
