@@ -56,8 +56,8 @@ body {
 #header-inicio-des {
   display: inline-flex;
   width: 70%;
-  height: 60vh;
-  margin: 9vh 15%;
+  height: 50vh;
+  margin: 10% 15%;
   align-items: center;
 }
 #image-text img {
@@ -71,7 +71,7 @@ body {
   padding: 0px 10px;
   overflow: auto;
   border-radius: 20px;
-  background: rgba(153, 154, 145,0.9);
+  background: #41484d;
 }
 #text-header h1 {
   text-align: center;

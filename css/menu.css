@@ -29,6 +29,7 @@ header a {
 }
 .menuprincipal ul {
   display: flex;
+  margin-top: 30px;
   width: 100%;
 }
 .menu-fixed {

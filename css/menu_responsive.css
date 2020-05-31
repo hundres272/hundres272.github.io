@@ -9,8 +9,9 @@
     /* height: auto; */
   }
   .menu_icon {
+    /* display: none; */
     display: block;
-    width: 100%;
+    width: 100vw;
     background: #772648;
     position: fixed;
   }
@@ -32,7 +33,7 @@
   #cabeceralogo {
     display: inline-block;
     justify-content: center;
-    width: auto;
+    width: 100vw;
     background-repeat: repeat-y;
     height: auto;
     background-size: auto;
@@ -78,6 +79,7 @@
   #header-inicio-des {
     display: block;
     width: 100%;
+    height: auto;
     margin-top: 10%;
     margin-left: 0%;
     border-radius: 0%;
@@ -86,12 +88,14 @@
     display: block;
     /* margin-top: 20vh; */
     /* margin: 0; */
-    justify-content: center;
+    width: 100%;
+    /* justify-content: space-around; */
   }
   #image-text img {
-    width: 80%;
-    margin: 0% 10%;
+    width: 90%;
+    margin: 0% 4%;
     margin-top: 90px;
+    margin-bottom: 50px;
   }
   #text-header {
     display: block;
@@ -99,6 +103,7 @@
     padding: 4%;
     width: auto;
     font-size: 3em;
+    background-color: #19374c;
     /* text-align: left; */
   }
   #formacion {
@@ -198,7 +203,7 @@
   }
   .seccionpie {
     display: block;
-    /* width: 100%; */
+    width: 100%;
   }
   .content-text {
     margin: 0%;
@@ -212,7 +217,7 @@
     justify-content: center;
   }
   .content-icons img {
-    width: 20vh;
+    width: 100%;
   }
   .menu-fixed {
     position: static;
