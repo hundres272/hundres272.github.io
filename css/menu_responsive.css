@@ -64,14 +64,11 @@
     display: block;
     margin: 0%;
     padding: 0%;
-    /* border-style: solid;
-    border-color: red; */
   }
   .menu-item {
     width: 100%;
     height: auto;
     border-bottom: white 5px solid;
-    /* border-color: green; */
   }
   .menu-item:hover {
     background-color: #7d3050;
@@ -86,10 +83,7 @@
   }
   #image-text {
     display: block;
-    /* margin-top: 20vh; */
-    /* margin: 0; */
     width: 100%;
-    /* justify-content: space-around; */
   }
   #image-text img {
     width: 90%;
@@ -104,13 +98,9 @@
     width: auto;
     font-size: 3em;
     background-color: #19374c;
-    /* text-align: left; */
   }
   #formacion {
     display: inline-block;
-    /* margin: 0%; */
-    /* padding: 0%; */
-    /* width: auto; */
     width: auto;
     height: auto;
     background-size: auto;
@@ -119,23 +109,18 @@
     list-style: none;
     margin: 0%;
     padding: 0%;
-    padding-top: 15%;
     height: auto;
-    margin-top: 70vh;
-    margin-bottom: 50vh;
-    /* width: 100%; */
+    padding-top: 15%;
+    margin-top: 10vh;
     margin: 0% 10%;
   }
   .tabs-grid {
-    /* width: 100%; */
     margin-left: 5%;
     padding: 5% 0%;
     padding-left: 5px;
     margin-right: 10%;
   }
   .tabs-link {
-    /* border: 1px solid red; */
-    /* width: auto; */
     padding: 0%;
     text-align: center;
     font-size: 2em;
@@ -157,13 +142,8 @@
     width: 100%;
   }
   #trabajos {
-    /* display: none; */
     display: inline-block;
-    /* margin: 0%; */
-    /* padding: 0%; */
-    /* width: 100%; */
     height: auto;
-    /* background-size: auto; */
   }
   .contenedor-trabajos {
     display: inline-block;
@@ -172,17 +152,14 @@
   }
   .trabajo {
     font-size: 3em;
-    /* width: 90%; */
   }
   #trabajo-uno {
-    /* border: 1px solid red; */
     display: block;
     height: auto;
     width: 90%;
     margin: 0% 5%;
     margin-bottom: 5vh;
     padding: 5% 0%;
-    /* margin: 0%; */
   }
   #trabajo-dos {
     display: block;
@@ -201,7 +178,6 @@
     padding: 5% 0%;
   }
   #contacto {
-    /* display: none; */
     display: inline-block;
     width: 100%;
     height: auto;
@@ -217,7 +193,6 @@
     font-size: 2em;
   }
   .content-icons {
-    /* border: 1px solid red; */
     width: 100%;
     justify-content: center;
   }
@@ -226,9 +201,7 @@
   }
   .menu-fixed {
     position: static;
-    /* z-index: 1000; */
     top: 0;
-    /* width: 100%; */
     background-color: none;
   }
 }
