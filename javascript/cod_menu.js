@@ -7,7 +7,7 @@ function volver_visual() {
   var menu_li = document.getElementById('menu-cabecera');
 
   if(contador == 1 && screen.width<1000){
-    menu_li.style.top='174px';
+    // menu_li.style.top='174px';
     menu_li.style.left='0';
     contador = 0;
   }else{
