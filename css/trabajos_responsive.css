@@ -42,8 +42,11 @@
     .flex-column {
         margin-left: 0;
         font-size: 1.3em;
+        /* justify-content: center;
+        align-items: center; */
     }
     p {
+        /* display: flex; */
         max-width: 94vw;
         /* width: 99vw; */
         font-size: .9em;
