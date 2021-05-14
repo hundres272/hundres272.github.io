@@ -58,12 +58,16 @@
         margin: 10px 2%;
     }
 
+    .front-part {
+        height: 100vh;
+    }
+
     #redes>a>img {
         filter: none;
         width: 70px;
     }
 
     #back-part {
-        height: 550px;
+        display: none;
     }
 }
