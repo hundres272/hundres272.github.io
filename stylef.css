@@ -38,4 +38,7 @@
         display: flex;
         width: 30vw;
     }
+    #back-part {
+        height: 1900px;
+    }
 }
