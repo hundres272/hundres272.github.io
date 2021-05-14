@@ -1,0 +1,36 @@
+:root {
+    --color-principal: rgb(42, 69, 218);
+}
+
+.front-in-front img {
+background-color: #838a8c;
+}
+
+.front-in-front>div>h2 {
+    margin: 0;
+}
+
+.front-in-front>div>a {
+    background-color: #838a8c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+
+.front-in-front>div>a:hover {
+    background-color: #636363;
+}
+
+#back-part {
+    height: 1100px;
+}
+
+@media (max-width: 550px) {
+    .front-in-front img {
+        display: flex;
+        width: 96%;
+        margin: 10px 2%;
+    }
+}

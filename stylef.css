@@ -1,0 +1,41 @@
+.icon-inst {
+    height: 80%;
+    margin: 0 5%;
+    /* background: red; */
+}
+.tecnologies p {
+    width: 80%;
+    margin-right: 10%;
+    text-align: start;
+}
+:root {
+    --color-principal: rgb(201, 68, 68);
+}
+
+@media (max-width: 550px) {
+    .tecnologies {
+        width: 100vw;
+        height: auto;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* background-color: red; */
+    }
+    .tecnologies p {
+        width: 90%;
+        margin: 0 5%;
+        margin-bottom: 20px;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    #content-section-two h2 {
+        margin-top: 30px;
+    }
+    #content-section-two>div {
+        height: auto;
+        flex-direction: column;
+    }
+    .front-in-front img {
+        display: flex;
+        width: 30vw;
+    }
+}
