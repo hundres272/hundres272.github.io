@@ -23,6 +23,10 @@ background-color: #838a8c;
     background-color: #636363;
 }
 
+#back-part {
+    height: 3300px;
+}
+
 @media (max-width: 550px) {
     .front-in-front img {
         display: flex;
@@ -38,6 +42,6 @@ background-color: #838a8c;
         
     }
     #back-part {
-        height: 2400px;
+        height: 3500px;
     }
 }
